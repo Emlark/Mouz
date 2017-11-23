@@ -1,10 +1,10 @@
-body{margin:0;padding:0;}
-html{overflow: hidden;}
+
 .box{
     width: 100%;
     padding-bottom:100%;
     background-color:#fff;}
-.box>div{margin:1.13%;
+.box>div{
+    margin:1.13%;
     width:31%;
     padding-bottom:31%;
     border-radius: 6%;
