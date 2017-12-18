@@ -65,7 +65,7 @@ main{
     height:.2rem;
 }
 
-.parent{height:4.6rem;
+.parent{height:4.62rem;
     overflow: scroll;
     overflow-x:hidden;
 }
@@ -79,7 +79,7 @@ main{
 img{display:block;}
 
 .version{
-    height:5.5rem;
+    height:5.3rem;
     margin:.1rem .2rem;
     border:1px solid #c9c9c9;
     background-color:#fff;
