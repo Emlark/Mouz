@@ -1,0 +1,136 @@
+$normal-word:.18rem;
+$color-orange:#FBB435;
+
+.flex-center{
+  display:flex;
+  align-items:center;
+}
+
+
+html {
+  font-size: 625%;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+  height:100%;
+}
+
+body {
+  height:100%;
+  margin: 0;
+  background-color:#F0F0F0;
+}
+
+
+button{
+  border:none;
+  outline:none;
+  background-color:transparent;
+  cursor:pointer;
+  display:block;
+  padding:0;
+}
+
+.btn-block{
+  width:100%;
+  height:100%;
+  color:#fff;
+  font-size:$normal-word;
+}
+
+header {
+  height: 46px;
+  margin: 0;
+  padding: 3px 10px;
+  background-color: #29BDE0;
+  @extend .flex-center;
+}
+
+
+.img1{
+  width:.17rem;
+  height:.13rem;
+}
+
+main{
+  text-align:center;
+}
+.word1{
+  position:relative;
+  height:.65rem;
+  margin:.12rem .2rem;
+  border:1px solid #c9c9c9;
+  font-size:$normal-word;
+  background-color:#fff;
+  color:#9A9A9A;
+  @extend .flex-center;
+  justify-content:center;
+  letter-spacing:1px;
+}
+
+.enter{
+  position:absolute;
+  right:.18rem;
+  top:35%;
+  width:.12rem;
+  height:.2rem;
+}
+
+.parent{
+  height:4.65rem;
+  overflow: scroll;
+  overflow-x:hidden;
+}
+.enter1{
+  position:absolute;
+  right:.21rem;
+  top:50%;
+  width:.14rem;
+  height:.27rem;
+}
+img{display:block;}
+
+.version{
+  height:5.3rem;
+  margin:.1rem .2rem;
+  border:1px solid #c9c9c9;
+  background-color:#fff;
+  position:relative;
+}
+
+.game{
+  height:.46rem;
+  @extend .flex-center;
+  justify-content: center;
+  border-bottom:2px solid $color-orange;
+  font-size:$normal-word;
+  color:$color-orange;
+  letter-spacing:2px;
+}
+
+.vers {
+  margin:.1rem .25rem;
+  height:20%;
+  font-size: $normal-word;
+  color:#fff;
+  background-color:#69D1E9;
+  @extend .flex-center;
+  justify-content: center;
+
+}
+
+.round{
+  @extend .flex-center;
+  justify-content: center;
+  margin-top:.08rem;
+}
+
+
+
+.round1{
+  width:8px;
+  height:8px;
+  border-radius:4px;
+  margin:0 .02rem;
+}
+
