@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="img" IsPhone="false" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="man.png" LocationX="0" LocationY="0" />
+    <Sprite Path="next-0.png" LocationX="748" LocationY="0" />
+    <Sprite Path="box-3.png" LocationX="47" LocationY="0" />
+    <Sprite Path="star.png" LocationX="22" LocationY="0" />
+    <Sprite Path="box-1.png" LocationX="73" LocationY="0" />
+    <Sprite Path="box-2.png" LocationX="107" LocationY="0" />
+    <Sprite Path="about.png" LocationX="139" LocationY="0" />
+    <Sprite Path="notice.png" LocationX="170" LocationY="0" />
+    <Sprite Path="help.png" LocationX="201" LocationY="0" />
+    <Sprite Path="next-1.png" LocationX="772" LocationY="0" />
+    <Sprite Path="set.png" LocationX="233" LocationY="0" />
+    <Sprite Path="qq.png" LocationX="267" LocationY="0" />
+    <Sprite Path="wechat.png" LocationX="303" LocationY="0" />
+    <Sprite Path="blog.png" LocationX="337" LocationY="0" />
+    <Sprite Path="phone.png" LocationX="408" LocationY="0" />
+    <Sprite Path="point.png" LocationX="370" LocationY="0" />
+    <Sprite Path="next-2.png" LocationX="804" LocationY="0" />
+    <Sprite Path="lock.png" LocationX="447" LocationY="0" />
+    <Sprite Path="list-1.png" LocationX="492" LocationY="0" />
+    <Sprite Path="close.png" LocationX="538" LocationY="0" />
+    <Sprite Path="list-0.png" LocationX="585" LocationY="0" />
+    <Sprite Path="r2.png" LocationX="635" LocationY="0" />
+    <Sprite Path="home.png" LocationX="687" LocationY="0" />
+    <Sprite Path="play.png" LocationX="847" LocationY="0" />
+  </SpriteList>
+</SpriteFile>
