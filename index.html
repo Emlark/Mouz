@@ -5,15 +5,46 @@
     <meta name="viewport" content="width=divice-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <title>首页</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+    <link href="show-leftList.css" rel="stylesheet" type="text/css">
+    <script>
+        function myfunc(){
+        var showLeft = document.getElementById('showLeft');
+        var leftCont = document.getElementById('leftCont');
+        var rightCont= document.getElementById('rightCont');
 
+            if (rightCont.classList.contains("left-zero") == true) {
+                rightCont.classList.remove("left-zero");
+                rightCont.classList.add("body-toRight");
+                leftCont.classList.remove("left-pos");
+                leftCont.classList.add("left-zero");
+            }
+            else {
+                rightCont.classList.add("left-zero");
+                leftCont.classList.add("left-pos");
+                rightCont.classList.remove("body-toRight");
+                leftCont.classList.remove("left-zero");
+            }
+        }
+    </script>
+</head>
+<body >
+
+<nav class="left-list left-pos" id="leftCont">
+    <header></header>
+    <a href="#" target="_blank">公告</a>
+    <a href="#" target="_blank">设置</a>
+    <a href="#" target="_blank">帮助</a>
+    <a href="#" target="_blank">关于</a>
+
+</nav>
+<div class="body-style left-zero" id="rightCont">
 <header>
   <div class="img1">
-      <button onclick="location.href=''">
+      <button id="showLeft" onclick="myfunc()">
       <img src="https://github.com/Emlark/Mouz.github.io/blob/master/images/a03.png?raw=true" style="width:.17rem;height:.13rem;"/>
       </button>
   </div>
+
 </header>
 
 <main>
@@ -78,5 +109,6 @@
    </div>
   </div>
 </main>
+</div>
 </body>
 </html>

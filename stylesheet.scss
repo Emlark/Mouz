@@ -1,17 +1,15 @@
 $normal-word:.18rem;
 $color-orange:#FBB435;
 
-.flex-center{
-  display:flex;
-  align-items:center;
-}
+
+
 
 
 html {
   font-size: 625%;
   margin: 0;
   padding: 0;
-  overflow:auto;
+overflow-x: hidden;
   height:100%;
 }
 
