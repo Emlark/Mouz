@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d91bc9ef-9bba-4bc2-9933-32e75d9e83ff" name="Default" comment="" />
+    <list default="true" id="d91bc9ef-9bba-4bc2-9933-32e75d9e83ff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,14 +19,24 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="299">
+              <caret line="108" column="201" lean-forward="false" selection-start-line="108" selection-start-column="201" selection-end-line="108" selection-end-column="201" />
               <folding>
                 <element signature="e#1349#1357#1" expanded="true" />
                 <element signature="e#1488#1496#1" expanded="true" />
                 <element signature="e#1627#1635#1" expanded="true" />
                 <element signature="e#1766#1774#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://F:/blog/LI.github.io/task-7and13/result/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="146" column="96" lean-forward="false" selection-start-line="146" selection-start-column="96" selection-end-line="146" selection-end-column="96" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="707">
@@ -63,6 +75,8 @@
         <option value="$USER_HOME$/Desktop/icon/task/task-3/task-3.html" />
         <option value="$USER_HOME$/Desktop/icon/task/task-1/task-1.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="F:/blog/LI.github.io/task-7and13/wealthLiberty/index.html" />
+        <option value="F:/blog/LI.github.io/task-7and13/result/index.html" />
       </list>
     </option>
   </component>
@@ -142,12 +156,12 @@
       <updated>1515872558913</updated>
       <workItem from="1515872561269" duration="66000" />
       <workItem from="1515924238106" duration="12482000" />
-      <workItem from="1515942119687" duration="1449000" />
+      <workItem from="1515942119687" duration="1898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13997000" />
+    <option name="totallyTimeSpent" value="14446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
@@ -318,19 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="e#1349#1357#1" expanded="true" />
-            <element signature="e#1488#1496#1" expanded="true" />
-            <element signature="e#1627#1635#1" expanded="true" />
-            <element signature="e#1766#1774#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -343,6 +344,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="707">
           <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="108" column="201" lean-forward="false" selection-start-line="108" selection-start-column="201" selection-end-line="108" selection-end-column="201" />
+          <folding>
+            <element signature="e#1349#1357#1" expanded="true" />
+            <element signature="e#1488#1496#1" expanded="true" />
+            <element signature="e#1627#1635#1" expanded="true" />
+            <element signature="e#1766#1774#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/blog/LI.github.io/task-7and13/wealthLiberty/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="415" column="181" lean-forward="false" selection-start-line="415" selection-start-column="181" selection-end-line="415" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/blog/LI.github.io/task-7and13/result/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="146" column="96" lean-forward="false" selection-start-line="146" selection-start-column="96" selection-end-line="146" selection-end-column="96" />
           <folding />
         </state>
       </provider>
