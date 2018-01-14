@@ -2,9 +2,9 @@
 
 .body-style{
     position: relative;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -12,31 +12,121 @@
 .left-list{
     background-color:#fff;
     position: fixed;
-    width: 80vw;
     height: 100%;
     top: 0;
     z-index: 1000;
-    
+    transition: all 0.5s ease-in-out;
+
 }
 
-.left-pos{
-    left:-80vw;
+.navList{
+    position:relative;
+    width:100%;
+    height:.5rem;
+    line-height:.5rem;
+
 }
 
-.left-list a {
+.navList a {
     display:block;
+    padding-left:.5rem;
+    height:.5rem;
+    line-height:.48rem;
     background-color:#fff;
-    font-size:.2rem;
-    border-bottom: 1px solid #ccc;
-    padding: 1em;
+    font-size:.18rem;
+    color:#A3DAEA;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #A3DAEA;
+    position:relative;
+
 }
 
+.navList a:hover{
+
+    color:#29BDE0;
+    border: 1px solid #29BDE0;
+}
 .left-zero{
     left:0;
 }
 
+.icon-pionter{
+    position:absolute;
+    right:.1rem;
+    top:-3px;
+    color:#A3DAEA;
+    font-size:.4rem;
+}
 
-.body-toRight{
-    left: 80vw;
+.navList:hover .icon-pionter{
+    color:#29BDE0;
+}
 
+
+
+.icon1:before{
+    background-image:url(https://github.com/Emlark/Mouz.github.io/blob/master/icon/sprite.png?raw=true);
+    height:24px;
+    width:24px;
+    background-position:-170px 0;
+    position:absolute;
+    top:.12rem;
+    left:.1rem;
+    content: ' ';
+}
+
+.icon2:before{
+    background-image:url(https://github.com/Emlark/Mouz.github.io/blob/master/icon/sprite.png?raw=true);
+    height:24px;
+    width:24px;
+    background-position:-233px 0;
+    position:absolute;
+    top:.12rem;
+    left:.1rem;
+    content: ' ';
+}
+.icon3:before{
+    background-image:url(https://github.com/Emlark/Mouz.github.io/blob/master/icon/sprite.png?raw=true);
+    height:24px;
+    width:24px;
+    background-position:-201px 0;
+    position:absolute;
+    top:.12rem;
+    left:.1rem;
+    content: ' ';
+}
+.icon4:before{
+    background-image:url(https://github.com/Emlark/Mouz.github.io/blob/master/icon/sprite.png?raw=true);
+    height:24px;
+    width:24px;
+    background-position:-139px 0;
+    position:absolute;
+    top:.12rem;
+    left:.1rem;
+    content: ' ';
+}
+
+@media (max-width:500px){
+
+    .body-toRight{
+        left: 80vw;
+    }
+    .left-pos{
+        left:-80vw;
+    }
+    .left-list{
+        width: 80vw;
+    }
+}
+
+@media (min-width:500px){
+    .body-toRight{
+        left: 30vw;
+    }
+    .left-pos{
+        left:-30vw;
+    }
+    .left-list{
+        width: 30vw;
+    }
 }
