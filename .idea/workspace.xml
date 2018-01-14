@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d91bc9ef-9bba-4bc2-9933-32e75d9e83ff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheet.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheet.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/九宫格/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/九宫格/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show-leftList.css" afterPath="$PROJECT_DIR$/show-leftList.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheet.css" />
-    </list>
+    <list default="true" id="d91bc9ef-9bba-4bc2-9933-32e75d9e83ff" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -154,12 +142,12 @@
       <updated>1515872558913</updated>
       <workItem from="1515872561269" duration="66000" />
       <workItem from="1515924238106" duration="12482000" />
-      <workItem from="1515942119687" duration="1286000" />
+      <workItem from="1515942119687" duration="1449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13834000" />
+    <option name="totallyTimeSpent" value="13997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
